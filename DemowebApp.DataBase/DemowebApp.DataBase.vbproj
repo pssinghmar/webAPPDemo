@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>DemowebApp.DataBase</RootNamespace>
+    <TargetFramework>net48</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ServiceExtension\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemowebApp.Core\DemowebApp.Core.vbproj" />
+  </ItemGroup>
+
+</Project>

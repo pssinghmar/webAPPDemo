@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>DemowebApp.Common</RootNamespace>
+    <TargetFramework>net48</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\NewFolder\" />
+  </ItemGroup>
+
+</Project>

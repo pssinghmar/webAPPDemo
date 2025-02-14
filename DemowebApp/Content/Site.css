@@ -1,0 +1,30 @@
+﻿/* Set padding to keep content from hitting the edges */
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.body-content {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    left: 0px;
+}
