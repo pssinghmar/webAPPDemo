@@ -14,7 +14,7 @@ Public Class ValuesController
     ' POST api/values
     <HttpPost>
     Public Async Function PostDataAsync(<FromBody()> ByVal requestData As Dictionary(Of String, String)) As Task(Of HttpResponseMessage)
-        Dim validReferrer As String = "https://localhost:44395/" ' Replace with the actual allowed referrer
+        Dim validReferrer As String = "http://www.webdemo.somee.com/" ' Replace with the actual allowed referrer
 
         ' Get the referring URL
         Dim referrer As String = If(Request.Headers.Referrer IsNot Nothing, Request.Headers.Referrer.ToString(), "")
